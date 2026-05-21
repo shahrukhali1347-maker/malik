@@ -1,7 +1,7 @@
 import { Boxes, Layers3, Star, Users } from "lucide-react";
 
 const stats = [
-  { icon: Boxes, label: "Tools listed", value: "50+" },
+  { icon: Boxes, label: "AI tools listed", value: "50+" },
   { icon: Layers3, label: "Categories", value: "5" },
   { icon: Star, label: "Avg. rating", value: "4.5" },
   { icon: Users, label: "Monthly visitors", value: "120k" },

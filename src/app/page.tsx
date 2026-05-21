@@ -19,8 +19,8 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-5 pt-20">
         <SectionHead
           kicker="Featured"
-          title="Editor-picked tools you should know"
-          description="A rotating selection of the most useful tools across every category."
+          title="Editor-picked AI tools you should know"
+          description="A rotating selection of the most useful AI tools across every category."
           linkHref="/tools?featured=true"
           linkLabel="See all featured"
         />
@@ -38,7 +38,7 @@ export default function HomePage() {
         <SectionHead
           kicker="Browse"
           title="Explore by category"
-          description="Five focused categories. Every tool is hand-checked before it gets in."
+          description="Five focused categories. Every AI tool is hand-checked before it gets in."
           linkHref="/categories"
           linkLabel="All categories"
         />
@@ -76,7 +76,7 @@ export default function HomePage() {
             {
               icon: Sparkles,
               title: "Hand-picked, not crowdsourced",
-              copy: "Every tool is reviewed by a real human before it shows up here. No pay-to-play.",
+              copy: "Every AI tool is reviewed by a real human before it shows up here. No pay-to-play.",
             },
             {
               icon: Compass,

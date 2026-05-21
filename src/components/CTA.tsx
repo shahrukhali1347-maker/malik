@@ -15,10 +15,10 @@ export function CTA() {
             Newsletter
           </span>
           <h2 className="mt-4 text-3xl font-semibold tracking-tight md:text-4xl">
-            One useful tool. Every Friday.
+            One great AI tool. Every Friday.
           </h2>
           <p className="mt-3 text-[var(--fg-soft)]">
-            A short weekly note with the most interesting tool we found that
+            A short weekly note with the most interesting AI tool we found that
             week — no ads, no fluff, unsubscribe anytime.
           </p>
           <form className="mt-6 flex max-w-md flex-col gap-2 sm:flex-row">

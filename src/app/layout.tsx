@@ -6,11 +6,11 @@ import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "ToolStack — A directory of tools that actually help",
+    default: "ToolStack — A directory of AI tools that actually help",
     template: "%s · ToolStack",
   },
   description:
-    "Discover 50+ hand-picked tools across productivity, design, development, marketing, and analytics.",
+    "Discover 50+ hand-picked AI tools across productivity, design, development, marketing, and analytics.",
   metadataBase: new URL("https://example.com"),
 };
 

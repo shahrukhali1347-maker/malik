@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { tools } from "@/data/tools";
 
-const chipQueries = ["Notes", "Deploy", "Email", "Analytics", "Design"];
+const chipQueries = ["AI writing", "Image generation", "AI coding", "Analytics", "SEO"];
 
 export function Hero() {
   const router = useRouter();
@@ -31,19 +31,19 @@ export function Hero() {
       <div className="relative mx-auto max-w-5xl px-5 pt-20 pb-24 text-center md:pt-28 md:pb-32">
         <div className="anim-rise inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--surface)] px-3 py-1 text-xs font-medium text-[var(--fg-soft)] shadow-sm">
           <Sparkles className="h-3 w-3 text-[var(--brand)]" />
-          {tools.length} tools · 5 categories · always free to browse
+          {tools.length} AI tools · 5 categories · always free to browse
         </div>
 
         <h1 className="anim-rise delay-1 mt-6 text-balance text-4xl font-semibold tracking-tight md:text-6xl">
-          Find the right tool for{" "}
+          Find the right AI tool for{" "}
           <span className="relative inline-block">
             <span className="relative z-10 text-[var(--brand)]">your next move</span>
             <span className="absolute inset-x-0 bottom-1 z-0 h-3 rounded bg-[var(--brand-soft)]" />
           </span>
         </h1>
         <p className="anim-rise delay-2 mx-auto mt-5 max-w-2xl text-pretty text-base text-[var(--fg-soft)] md:text-lg">
-          A curated directory of productivity, design, development, marketing,
-          and analytics tools — vetted, compared, and ready to use.
+          A curated directory of AI tools for productivity, design, development,
+          marketing, and analytics — vetted, compared, and ready to use.
         </p>
 
         <form onSubmit={submit} className="anim-rise delay-3 mx-auto mt-9 flex max-w-xl items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--surface)] p-1.5 shadow-sm focus-within:border-[var(--brand)] focus-within:ring-2 focus-within:ring-[var(--brand)]/30">
@@ -51,7 +51,7 @@ export function Hero() {
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Search 50+ tools, tags, categories…"
+            placeholder="Search 50+ AI tools, tags, categories…"
             className="flex-1 bg-transparent px-1 py-2 text-sm outline-none placeholder:text-[var(--muted)]"
           />
           <button

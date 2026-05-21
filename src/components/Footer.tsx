@@ -17,8 +17,8 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-3 max-w-sm text-sm text-[var(--fg-soft)]">
-              A hand-picked directory of tools that help individuals and teams
-              do their best work — without the bloat.
+              A hand-picked directory of AI tools that help individuals and
+              teams do their best work — without the bloat.
             </p>
             <div className="mt-5 flex items-center gap-3">
               {[Twitter, Github, Linkedin].map((Icon, i) => (
